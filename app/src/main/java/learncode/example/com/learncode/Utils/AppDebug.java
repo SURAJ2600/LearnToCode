@@ -4,7 +4,7 @@ package learncode.example.com.learncode.Utils;
  * Created by vishnu on 29/2/16.
  */
 public class AppDebug {
-    static boolean LOG = true;
+    static boolean LOG = false;
 
     public static void i(String tag, String string) {
         if (LOG) android.util.Log.i(tag, string);
